@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Main wrapper -->
+    <div class="wrapper">
+      <!-- Card wrapper ______ markup logic in app.js-->
+      <div class="card-wrapper"></div>
+      <!-- navigation buttons -->
+      <div class="nav">
+        <button class="btn home-btn" id="home" onclick="showHomeCard()">
+          <img src="./img/home_icon.svg" alt="" class="svg" id="home-icon" />
+          <!-- <i class="" src="./img/home_icon.svg"></i> -->
+        </button>
+        <button class="btn" id="shop" onclick="showShopCard()">
+          <img src="./img/shop.svg" alt="" class="svg" id="shop-icon" />
+        </button>
+        <button class="btn" id="cart" onclick="showCartCard()">
+          <img src="./img/cart.svg" alt="" class="svg" id="cart-icon" />
+        </button>
+      </div>
+    </div>
+    <!-- script -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
